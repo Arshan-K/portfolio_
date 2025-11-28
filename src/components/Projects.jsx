@@ -4,19 +4,19 @@ export default function Projects() {
         title: "TalentTest.io",
         desc: "Custom code compiler, mock tests, referral system, and admin tools.",
         tech: ["React", "Tailwind", "Rails", "Sidekiq"],
-        link: "#"
+        link: "https://TalentTest.io"
       },
       {
         title: "Gym Trainer App",
         desc: "Workout tracker app with categories, calories system, and insights.",
         tech: ["React", "Rails", "Redux"],
-        link: "#"
+        link: "https://github.com/Arshan-K"
       },
       {
         title: "Teacher Management Interface",
         desc: "Next.js + Tailwind interface with graphs, histograms, and insights.",
         tech: ["Next.js", "Tailwind", "TypeScript"],
-        link: "#"
+        link: "https://github.com/Arshan-K"
       },
     ];
   
@@ -51,6 +51,7 @@ export default function Projects() {
                 href={p.link}
                 className="inline-block mt-5 px-5 py-2 border border-gold text-gold 
                            hover:bg-gold hover:text-black rounded-md transition"
+                target="_blank" rel="noopener noreferrer"
               >
                 View Project →
               </a>

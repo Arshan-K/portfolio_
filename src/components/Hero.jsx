@@ -5,7 +5,7 @@ export default function Hero() {
         {/* Heading */}
         <h1 className="text-4xl md:text-6xl font-extrabold text-gold tracking-wide">
           Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow to-orange">
-            CodeKing
+            Arshan
           </span>
         </h1>
   
@@ -19,13 +19,16 @@ export default function Hero() {
   
         {/* Buttons */}
         <div className="mt-8 flex space-x-4">
-          <button className="px-6 py-3 bg-gold text-black font-bold rounded-md hover:bg-yellow transition">
+          <a href="mailto:arsh.kcode@gmail.com" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-gold text-black font-bold rounded-md hover:bg-yellow transition">
             Hire Me
-          </button>
+          </a>
   
-          <button className="px-6 py-3 border border-gold text-gold font-bold rounded-md hover:bg-gold hover:text-black transition">
+          <a href="https://github.com/Arshan-K"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 border border-gold text-gold font-bold rounded-md hover:bg-gold hover:text-black transition">
             View Projects
-          </button>
+          </a>
         </div>
   
         {/* Glow ring behind text (subtle effect) */}

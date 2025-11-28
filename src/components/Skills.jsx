@@ -6,14 +6,14 @@ export default function Skills() {
     { name: "JavaScript", level: 90 },
     { name: "Tailwind CSS", level: 80 },
     { name: "Ruby on Rails", level: 75 },
-    { name: "Next.js", level: 70 },
+    { name: "Redux", level: 70 },
     { name: "TypeScript", level: 65 },
   ];
 
   const [animate, setAnimate] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setAnimate(true), 300); // smooth trigger
+    setTimeout(() => setAnimate(true), 300);
   }, []);
 
   return (
@@ -50,7 +50,7 @@ export default function Skills() {
       <h3 className="text-3xl text-center text-gold font-bold mt-20">Tools & Technologies</h3>
 
       <div className="mt-10 grid grid-cols-3 md:grid-cols-6 gap-6 max-w-4xl mx-auto">
-        {["React", "Rails", "Git", "Figma", "PostgreSQL", "Node.js"].map((tool, i) => (
+        {["React", "Rails", "Git", "Figma", "PostgreSQL", "Node.js", "Ruby", "Javascript"].map((tool, i) => (
           <div
             key={i}
             className="p-4 bg-black/40 border border-gold rounded-xl 
